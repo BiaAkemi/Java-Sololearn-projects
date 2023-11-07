@@ -105,3 +105,10 @@ The given code declares an array that holds the monthly revenues for a company f
 **Task:**
 You need to calculate the average monthly revenue for the year.
 For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
+
+## [13. System Security](SystemSecurity.java)
+The given code declares an array that holds the monthly revenues for a company for a year.
+
+**Task:**
+You need to calculate the average monthly revenue for the year.
+For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
