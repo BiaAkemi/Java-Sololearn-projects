@@ -85,3 +85,16 @@ For example, the factorial of 5 is 1* 2 * 3 * 4 * 5  = 120.
 
 **Task:**
 Create a program that takes a number from input and output the factorial of that number.
+
+## [11. System For Bank Clients](SystemForBankClients.java)
+You are creating an automated phone system for bank clients.
+
+Number selections should activate the actions noted below as follows:
+1 => Language selection
+2 => Customer support
+3 => Check account balance
+0 => Exit
+You can use the first 3 commands in a random sequence without interrupting the phone call - only the number 0 interrupts it. The given code takes numbers continuously.
+
+**Task:**
+Complete the code to output the corresponding messages, until the client enters 0.
