@@ -31,3 +31,15 @@ You are making a program for a water sensor that should check if the water is bo
 **Task:**
 Take the integer temperature in Celsius as input and output "Boiling" if the temperature is above or equal to 100.
 Output "Not boiling" if it's not.
+
+## [5. Boxes](Boxes.java)
+You are making a robot that should categorize items by their color.
+Each color corresponds to a box with a specific number.
+
+For simplicity, our program will handle 3 colors:
+red goes to box #1
+green goes to box #2
+black goes to box #3
+
+**Task:**
+Your program needs to take a color as input and output the corresponding box number.
