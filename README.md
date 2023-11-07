@@ -79,3 +79,9 @@ The given code takes the number from user input and declares a "fact" variable f
 **Task:**
 Complete the code to calculate the factorial of the given number and output it.
 
+## [10. Factorial For](FactorialFor.java)
+The factorial of a number N is equal to 1 * 2 * 3 * ... * N
+For example, the factorial of 5 is 1* 2 * 3 * 4 * 5  = 120.
+
+**Task:**
+Create a program that takes a number from input and output the factorial of that number.
