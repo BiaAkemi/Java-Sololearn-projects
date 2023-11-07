@@ -112,3 +112,12 @@ The given code declares an array that holds the monthly revenues for a company f
 **Task:**
 You need to calculate the average monthly revenue for the year.
 For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
+
+## [14. System Security](MovieTheater.java)
+You are creating a ticketing program for a small movie theater.
+The seats are represented using a 2-dimensional array.
+Each item can have the values 1 and 0 - 1 is occupied, and 0 if it's free.
+
+**Task:**
+Your program needs to take as input the row and the column of the seat and output Free if it's free, and Sold if it's not.
+
