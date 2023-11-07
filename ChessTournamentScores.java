@@ -7,7 +7,7 @@ Task:
 Create a program to calculate and output the points earned by the player.
 Multiply the ties value by 0.5, to get the points earned for ties.*/
 
-public class Program {
+public class ChessTournamentScores {
     public static void main(String[] args) {
         double wins = 54.0;
         double ties = 31.0;
