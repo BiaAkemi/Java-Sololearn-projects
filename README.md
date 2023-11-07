@@ -71,3 +71,11 @@ Your math teacher asked you to calculate the sum of the numbers 1 to N, where N 
 
 **Task:** 
 Take an integer N from input and output the sum of the numbers 1 to N, inclusive.
+
+## [9. Factorial While](FactorialWhile.java)
+For your math class you need a program to calculate the factorial of a number.
+The given code takes the number from user input and declares a "fact" variable for calculation.
+
+**Task:**
+Complete the code to calculate the factorial of the given number and output it.
+
