@@ -25,4 +25,9 @@ Take the bill amount as input and output the corresponding tip amount, which sho
 To calculate 15% of a number, multiply it by 15, then divide by 100.
 The input amount can be a decimal, so take a double from the input.
 
+## [4. Boiling water](BoilingWater.java)
+You are making a program for a water sensor that should check if the water is boiling.
 
+**Task:**
+Take the integer temperature in Celsius as input and output "Boiling" if the temperature is above or equal to 100.
+Output "Not boiling" if it's not.
