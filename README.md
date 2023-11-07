@@ -98,3 +98,10 @@ You can use the first 3 commands in a random sequence without interrupting the p
 
 **Task:**
 Complete the code to output the corresponding messages, until the client enters 0.
+
+## [12. Annual Revenue](AnnualRevenue.java)
+The given code declares an array that holds the monthly revenues for a company for a year.
+
+**Task:**
+You need to calculate the average monthly revenue for the year.
+For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
