@@ -8,11 +8,12 @@ import java.util.Scanner;
 
 class Demo{
     public static void main(String[] args) {
-        Scanner read = new         
-        Scanner(System.in);
-        int width = read.nextInt();
-        int height = read.nextInt();
-        printArea(width, height);
+        try (Scanner read = new         
+        Scanner(System.in)) {
+            int width = read.nextInt();
+            int height = read.nextInt();
+            printArea(width, height);
+        }
         
     }
     

@@ -133,4 +133,10 @@ For any other number, the reply should be: "Try again".
 **Task:**
 The given code calls a method called bot(). Define the method, which should take an integer input from the user, and handle the above mentioned cases, by outputting the corresponding reply. 
 
+## [16. AreaOfRectangle](AreaOfRectangle.java)
+Let's imagine that you are writing a program that will help your sibling pass an exam. It should calculate and output the area of the rectangle.
+The code you are given takes the length and width of a rectangle as input and has a “printArea” method which is incomplete.
+
+**Task:**
+Complete the method to take length and width  as parameters.
 
