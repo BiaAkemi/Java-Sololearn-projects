@@ -18,22 +18,23 @@ public class Bot {
     }
 
     public static void bot(){
-  	Scanner sc = new Scanner(System.in);
-   int number = sc.nextInt();
-   
-   switch(number){
-   	 
-   	 case 1:
-   	  System.out.println("Order confirmed");
-     break;
-     
-     case 2:
+  	try (Scanner sc = new Scanner(System.in)) {
+      int number = sc.nextInt();
+       
+       switch(number){
+       	 
+       	 case 1:
+       	  System.out.println("Order confirmed");
+         break;
+         
+         case 2:
 System.out.println("info@sololearn.com");
-     break;
-     
-     default:
-   	   System.out.println("Try again");
-     break;
-   }
+         break;
+         
+         default:
+       	   System.out.println("Try again");
+         break;
+       }
+    }
   }
 }

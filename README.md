@@ -121,3 +121,16 @@ Each item can have the values 1 and 0 - 1 is occupied, and 0 if it's free.
 **Task:**
 Your program needs to take as input the row and the column of the seat and output Free if it's free, and Sold if it's not.
 
+## [15. Bot](Bot.java)
+You are making an automated response program for a store.
+The bot should take a number from the user as input and reply with an automated message.
+There are currently 3 responses, that you need to a handle:
+
+User message: "1", Reply: "Order confirmed"
+User message: "2", Reply: "info@sololearn.com"
+For any other number, the reply should be: "Try again".
+
+**Task:**
+The given code calls a method called bot(). Define the method, which should take an integer input from the user, and handle the above mentioned cases, by outputting the corresponding reply. 
+
+
