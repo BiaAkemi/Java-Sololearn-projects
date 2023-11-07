@@ -57,3 +57,17 @@ The given code takes the emotion number as an user input.
 Complete the code to output the corresponding message in the given format.
 If the input is an emotion that the program doesn’t know, it should output: "Unknown emotion".
 
+## [7. Age Group](AgeGroup.java)
+Given the age of a person as an input, output their age group.
+
+**Task**
+Here are the age groups you need to handle:
+Child: 0 to 11
+Teen: 12 to 17
+Adult: 18 to 64
+
+## [8. Sum While](SumWhile.java)
+Your math teacher asked you to calculate the sum of the numbers 1 to N, where N is a given number.
+
+**Task:** 
+Take an integer N from input and output the sum of the numbers 1 to N, inclusive.

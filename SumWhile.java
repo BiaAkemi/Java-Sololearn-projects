@@ -6,18 +6,19 @@ Take an integer N from input and output the sum of the numbers 1 to N, inclusive
 
 import  java.util.Scanner;
 
-public class Program {
+public class SumWhile {
     public static void main(String[] args) {
-        Scanner read = new
-        Scanner(System.in);
-        int num = read.nextInt();
-        int sum = 0;
-        int lp = 0;
-        while(lp<=num){
-        	sum += lp;
-        	lp++;
+        try (Scanner read = new
+        Scanner(System.in)) {
+            int num = read.nextInt();
+            int sum = 0;
+            int lp = 0;
+            while(lp<=num){
+            	sum += lp;
+            	lp++;
+            }
+      System.out.println(sum);
         }
-       System.out.println(sum);
         
     }
 }
