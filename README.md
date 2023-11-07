@@ -140,3 +140,9 @@ The code you are given takes the length and width of a rectangle as input and ha
 **Task:**
 Complete the method to take length and width  as parameters.
 
+## [17. Celsius To Fahr](CelsiusToFahr.java)
+Let's imagine that you are writing a program that will help your sibling pass an exam. It should calculate and output the area of the rectangle.
+The code you are given takes the length and width of a rectangle as input and has a “printArea” method which is incomplete.
+
+**Task:**
+Complete the method to take length and width  as parameters.
