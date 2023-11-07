@@ -25,7 +25,7 @@ Take the bill amount as input and output the corresponding tip amount, which sho
 To calculate 15% of a number, multiply it by 15, then divide by 100.
 The input amount can be a decimal, so take a double from the input.
 
-## [4. Boiling water](BoilingWater.java)
+## [4. Boiling Water](BoilingWater.java)
 You are making a program for a water sensor that should check if the water is boiling.
 
 **Task:**
@@ -43,3 +43,17 @@ black goes to box #3
 
 **Task:**
 Your program needs to take a color as input and output the corresponding box number.
+
+## [6. The Emotion Aware Robot](TheEmotionAwareRobot.java)
+Your robot can recognize your emotions and can assign them a number to represent each of them:
+
+You are happy!
+You are sad!
+You are angry!
+You are surprised!
+The given code takes the emotion number as an user input.
+
+**Task:**
+Complete the code to output the corresponding message in the given format.
+If the input is an emotion that the program doesn’t know, it should output: "Unknown emotion".
+
