@@ -8,7 +8,7 @@ Your program needs to take as input the row and the column of the seat and outpu
 
 import java.util.Scanner;
 
-public class Program {
+public class MovieTheater {
     
     public static void main(String[] args) {
         int[][] seats = {
@@ -18,13 +18,14 @@ public class Program {
         {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
         {0, 1, 1, 1, 0, 0, 0, 1, 1, 1}
         };
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int column = sc.nextInt();
-        if(seats[row][column]==0){
-        	System.out.println("Free");
-        }else{
-        	System.out.println("Sold");
+        try (Scanner sc = new Scanner(System.in)) {
+            int row = sc.nextInt();
+            int column = sc.nextInt();
+            if(seats[row][column]==0){
+            	System.out.println("Free");
+            }else{
+            	System.out.println("Sold");
+            }
         }
     }
 }
