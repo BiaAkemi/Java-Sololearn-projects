@@ -7,7 +7,7 @@ Variables representing these parameters are declared incorrectly in the system's
 **Task:** 
 Fix the errors so that the system can print the values.
 
-## [2. Chess Tournament Scores](2.Chess_Tournament_Scores.java)
+## [2. Chess Tournament Scores](ChessTournamentScores.java)
 You are making a program for a chess tournament, that needs to calculate the points earned by a player.
 A win is worth 1 point, while a tie is worth 0.5 points.
 The given program declares two variables: wins and ties with the corresponding values.
@@ -16,7 +16,7 @@ The given program declares two variables: wins and ties with the corresponding v
 Create a program to calculate and output the points earned by the player.
 Multiply the ties value by 0.5, to get the points earned for ties.
 
-## [3. Tip Calculator](3.Tip_Calculator.java)
+## [3. Tip Calculator](TipCalculator.java)
 You always tip 15% of the bill amount. 
 To make the calculation easier, you decide to write a program that will do that for you.
 
