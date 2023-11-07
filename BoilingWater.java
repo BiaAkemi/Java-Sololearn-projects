@@ -7,16 +7,17 @@ Output "Not boiling" if it's not.*/
 
 import  java.util.Scanner;
 
-public class Program {
+public class BoilingWater {
     public static void main(String[] args) {
-       Scanner sc = new
-       Scanner(System.in);
-       int water = sc.nextInt();
-       if (water>=100){
-       	System.out.println("Boiling");
-       }
-       else {
-       	System.out.print("Not boiling");
-       }
+       try (Scanner sc = new
+       Scanner(System.in)) {
+        int water = sc.nextInt();
+           if (water>=100){
+           	System.out.println("Boiling");
+           }
+           else {
+           	System.out.print("Not boiling");
+           }
+    }
     }
 }
